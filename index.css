@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+   background: linear-gradient(blue,red,green);
+}
+#a {
+
+    border: 3px solid red;
+    background-color: gray;
+    box-shadow: -7px -7px 20px black;
+    padding: 15px;
+}
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 20px; 
+    text-decoration: none;
+    border: 2px solid yellow;
+    padding: 15px;
+    width: 300px;
+    color: red;
+    background-color: indigo;
+}
+.clock {
+    border: 2px solid yellow;
+    width: 300px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px; 
+}
+.clock time {
+    display: block;
+    border: 2px solid yellow; 
+    padding: 10px;
+    text-align: center;
+}
